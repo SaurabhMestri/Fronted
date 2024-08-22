@@ -1,7 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Cart from "../public/images/cart.png"
-import User from "../public/images/user.png"
 
 
 const header = () => {
@@ -29,7 +26,7 @@ const header = () => {
                     <div className="collapse navbar-collapse bg-white" id="navbarCollapse">
                         <div className="navbar-nav mx-auto">
                             <a href="/home" className="nav-item nav-link active">Home</a>
-                            <a href="shop.html" className="nav-item nav-link">Shop</a>
+                            <a href="" className="nav-item nav-link">Shop</a>
                             <a href="/about" className="nav-item nav-link">About</a>
                             <div className="nav-item dropdown">
                                 <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -48,10 +45,9 @@ const header = () => {
         <button className="btn btn-outline-success me-3" type="submit">Search</button>
       </form>
                             <a href="#" className="position-relative me-4 my-auto align-middle">
-                                <Image src={Cart} height={30} width={30} alt=''/>
+                            <i className="fas fa-shopping-cart fa-2x"></i>
                                 <span className=" cart position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1 ">3</span>
                             </a>
-                            < Image src={User} height={30} width={30} alt='' className='align-middle'/>
                             <a href="#" className="my-auto">
                                 <i className="fas fa-user fa-2x"></i>
                             </a>

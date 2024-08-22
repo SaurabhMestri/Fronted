@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Background from "../public/images/background.jpg"
+// import Background from "../public/images/background.jpg"
 import product from "../public/images/product.jpg"
 
 
@@ -18,10 +18,9 @@ const home = () => {
                     <div className="carousel-inner" role="listbox">
                         <div className="carousel-item active rounded">
                             <Image src={product} className="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide"/>
-                            {/* <a href="#" className="btn px-4 py-2 text-white rounded">Hapus</a> */}
                         </div>
                         <div className="carousel-item rounded">
-                            <Image src={Background} className="img-fluid w-100 h-100 rounded" alt="Second slide"/>
+                            <Image src={""} className="img-fluid w-100 h-100 rounded" alt="Second slide"/>
                             <a href="#" className="btn px-4 py-2 text-white rounded">Vesitables</a>
                         </div>
                     </div>
