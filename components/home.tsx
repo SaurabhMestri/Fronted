@@ -3,6 +3,8 @@ import Image from 'next/image'
 // import Background from "../public/images/background.jpg"
 import product from "../public/images/product.jpg"
 import Shop from './shop'
+import BestSeller from './bestSeller'
+import About from './about'
 
 
 const home = () => {
@@ -140,6 +142,8 @@ const home = () => {
                 </div>
             </div>
         </div>
+        <BestSeller/>
+        <About/>
 </div>
   )
 }

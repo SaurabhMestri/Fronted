@@ -10,7 +10,7 @@ import "../main"
 import '../styles/lib/lightbox/css/lightbox.min.css'
 import '../styles/lib/owlcarousel/assets/owl.carousel.min.css'
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

@@ -44,11 +44,11 @@ const header = () => {
         <input className="form-control me-2 " type="search" placeholder="Search" aria-label="Search"></input>
         <button className="btn btn-outline-success me-3" type="submit">Search</button>
       </form>
-                            <a href="#" className="position-relative me-4 my-auto align-middle">
+                            <a href="/cart" className="position-relative me-4 my-auto align-middle">
                             <i className="fas fa-shopping-cart fa-2x"></i>
                                 <span className=" cart position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1 ">3</span>
                             </a>
-                            <a href="#" className="my-auto">
+                            <a href="" className="my-auto">
                                 <i className="fas fa-user fa-2x"></i>
                             </a>
                         </div>
