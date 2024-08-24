@@ -234,7 +234,7 @@ sup {
 }
 
 a {
-    color: #81c408;
+    color: #000000;
     text-decoration: none
 }
 
@@ -662,6 +662,7 @@ progress {
     .container {
         max-width: 720px
     }
+    
 }
 
 @media(min-width: 992px) {
@@ -672,6 +673,7 @@ progress {
     .container {
         max-width: 960px
     }
+
 }
 
 @media(min-width: 1200px) {
@@ -2175,6 +2177,9 @@ progress {
     .table-responsive-md {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
+    }
+    .row{
+        margin: 3rem !important;
     }
 }
 

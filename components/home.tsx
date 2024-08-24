@@ -1,22 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
 // import Background from "../public/images/background.jpg"
+import bckgd from "../public/images/home-background.jpg"
 import product from "../public/images/product.jpg"
 import Shop from './shop'
 import BestSeller from './bestSeller'
 import About from './about'
+import Header from './header'
 
 
 const home = () => {
   return (
-    <div className="container-fluid py-5 mb-5 hero-header">
-    <div className="container py-5">
-        <div className="row g-5 align-items-center">
+    <div className="">
+    <div className="hero-header">
+        <Header/>
+        <div className="row g-5 align-items-center py-5 m-14">
             <div className="col-md-12 col-lg-7">
                 <h4 className="mb-3 text-secondary">100% Organic Fruits</h4>
                 <h1 className="mb-5 display-3 text-primary">Organic Mangoes & Fresh New!</h1>   
             </div>
-            <div className="col-md-12 col-lg-5">
+            {/* <div className="col-md-12 col-lg-5">
                 <div id="carouselId" className="carousel slide position-relative" data-bs-ride="carousel">
                     <div className="carousel-inner" role="listbox">
                         <div className="carousel-item active rounded">
@@ -36,7 +39,7 @@ const home = () => {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 

@@ -13,7 +13,7 @@ const bestSeller = () => {
                         <div className="p-4 rounded bg-light">
                             <div className="row align-items-center">
                                 <div className="col-6">
-                                    <img src="img/best-product-1.jpg" className="img-fluid rounded-circle w-100" alt="" />
+                                    <img src="" className="img-fluid rounded-circle w-100" alt="" />
                                 </div>
                                 <div className="col-6">
                                     <a href="#" className="h5">Organic Tomato</a>
@@ -34,7 +34,7 @@ const bestSeller = () => {
                         <div className="p-4 rounded bg-light">
                             <div className="row align-items-center">
                                 <div className="col-6">
-                                    <img src="img/best-product-2.jpg" className="img-fluid rounded-circle w-100" alt="" />
+                                    <img src="" className="img-fluid rounded-circle w-100" alt="" />
                                 </div>
                                 <div className="col-6">
                                     <a href="#" className="h5">Organic Tomato</a>
@@ -55,7 +55,7 @@ const bestSeller = () => {
                         <div className="p-4 rounded bg-light">
                             <div className="row align-items-center">
                                 <div className="col-6">
-                                    <img src="img/best-product-3.jpg" className="img-fluid rounded-circle w-100" alt="" />
+                                    <img src="" className="img-fluid rounded-circle w-100" alt="" />
                                 </div>
                                 <div className="col-6">
                                     <a href="#" className="h5">Organic Tomato</a>
@@ -76,7 +76,7 @@ const bestSeller = () => {
                         <div className="p-4 rounded bg-light">
                             <div className="row align-items-center">
                                 <div className="col-6">
-                                    <img src="img/best-product-4.jpg" className="img-fluid rounded-circle w-100" alt=""/>
+                                    <img src="" className="img-fluid rounded-circle w-100" alt=""/>
                                 </div>
                                 <div className="col-6">
                                     <a href="#" className="h5">Organic Tomato</a>
@@ -97,7 +97,7 @@ const bestSeller = () => {
                         <div className="p-4 rounded bg-light">
                             <div className="row align-items-center">
                                 <div className="col-6">
-                                    <img src="img/best-product-5.jpg" className="img-fluid rounded-circle w-100" alt=""/>
+                                    <img src="" className="img-fluid rounded-circle w-100" alt=""/>
                                 </div>
                                 <div className="col-6">
                                     <a href="#" className="h5">Organic Tomato</a>
@@ -118,7 +118,7 @@ const bestSeller = () => {
                         <div className="p-4 rounded bg-light">
                             <div className="row align-items-center">
                                 <div className="col-6">
-                                    <img src="img/best-product-6.jpg" className="img-fluid rounded-circle w-100" alt=""/>
+                                    <img src="" className="img-fluid rounded-circle w-100" alt=""/>
                                 </div>
                                 <div className="col-6">
                                     <a href="#" className="h5">Organic Tomato</a>
@@ -137,7 +137,7 @@ const bestSeller = () => {
                     </div>
                     <div className="col-md-6 col-lg-6 col-xl-3">
                         <div className="text-center">
-                            <img src="img/fruite-item-1.jpg" className="img-fluid rounded" alt=""/>
+                            <img src="" className="img-fluid rounded" alt=""/>
                             <div className="py-4">
                                 <a href="#" className="h5">Organic Tomato</a>
                                 <div className="d-flex my-3 justify-content-center">
@@ -154,7 +154,7 @@ const bestSeller = () => {
                     </div>
                     <div className="col-md-6 col-lg-6 col-xl-3">
                         <div className="text-center">
-                            <img src="img/fruite-item-2.jpg" className="img-fluid rounded" alt=""/>
+                            <img src="" className="img-fluid rounded" alt=""/>
                             <div className="py-4">
                                 <a href="#" className="h5">Organic Tomato</a>
                                 <div className="d-flex my-3 justify-content-center">
@@ -171,7 +171,7 @@ const bestSeller = () => {
                     </div>
                     <div className="col-md-6 col-lg-6 col-xl-3">
                         <div className="text-center">
-                            <img src="img/fruite-item-3.jpg" className="img-fluid rounded" alt=""/>
+                            <img src="" className="img-fluid rounded" alt=""/>
                             <div className="py-4">
                                 <a href="#" className="h5">Organic Tomato</a>
                                 <div className="d-flex my-3 justify-content-center">
@@ -188,7 +188,7 @@ const bestSeller = () => {
                     </div>
                     <div className="col-md-6 col-lg-6 col-xl-3">
                         <div className="text-center">
-                            <img src="img/fruite-item-4.jpg" className="img-fluid rounded" alt=""/>
+                            <img src="" className="img-fluid rounded" alt=""/>
                             <div className="py-2">
                                 <a href="#" className="h5">Organic Tomato</a>
                                 <div className="d-flex my-3 justify-content-center">

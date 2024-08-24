@@ -181,10 +181,11 @@
 /*** Hero Header ***/
 .hero-header {
     /* background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1)), url(../public/images/hero-img.jpg); */
-    background-position: center center;
+    background: url("../public/images/home-background.jpg");
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 }
 
 .carousel-item {
@@ -228,19 +229,9 @@
     background-size: cover;
 }
 
-@media (min-width: 992px) {
-    .hero-header,
-    .page-header {
-        margin-top: 100px !important;
-    }
-}
 
-@media (max-width: 992px) {
-    .hero-header,
-    .page-header {
-        margin-top: 97px !important;
-    }
-}
+
+
 /*** Hero Header end ***/
 
 

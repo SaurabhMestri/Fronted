@@ -28,3 +28,12 @@
     width: 100px;
 
 }
+
+
+.home-container{
+height: 100vh;
+}
+
+.m-14{
+    margin: 14rem !important;
+}
