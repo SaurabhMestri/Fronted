@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const shop = () => {
   return (
-    <div className="container-fluid fruite py-5">
+    <div className="container-fluid fruite pb-5">
             <div className="container py-5">
                 <div className="tab-className text-center">
                     <div className="row g-4">
@@ -10,7 +10,7 @@ const shop = () => {
                             <h1>Our Organic Products</h1>
                         </div>
                         <div className="col-lg-8 text-end">
-                            <ul className="nav nav-pills d-inline-flex text-center mb-5">
+                            <ul className="nav nav-pills d-inline-flex text-center mb-3">
                                 <li className="nav-item">
                                     <a className="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
                                         <span className="text-dark w-130" >All Products</span>

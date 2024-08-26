@@ -2178,8 +2178,16 @@ progress {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
     }
-    .row{
-        margin: 3rem !important;
+   
+    .hero-container{
+        width: 300px;
+        height: 100%;
+        
+    }
+
+    .hero-header{
+        height: 50vh;
+        margin: 0 20px;
     }
 }
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 // import Background from "../public/images/background.jpg"
 import bckgd from "../public/images/home-background.jpg"
@@ -10,36 +10,18 @@ import Header from './header'
 
 
 const home = () => {
+  
+
   return (
     <div className="">
-    <div className="hero-header">
         <Header/>
-        <div className="row g-5 align-items-center py-5 m-14">
+    <div className="hero-header">
+        <div className="hero-container">
             <div className="col-md-12 col-lg-7">
                 <h4 className="mb-3 text-secondary">100% Organic Fruits</h4>
                 <h1 className="mb-5 display-3 text-primary">Organic Mangoes & Fresh New!</h1>   
+                <button className='btn border-secondary' >buy now</button>
             </div>
-            {/* <div className="col-md-12 col-lg-5">
-                <div id="carouselId" className="carousel slide position-relative" data-bs-ride="carousel">
-                    <div className="carousel-inner" role="listbox">
-                        <div className="carousel-item active rounded">
-                            <Image src={product} className="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide"/>
-                        </div>
-                        <div className="carousel-item rounded">
-                            <Image src={""} className="img-fluid w-100 h-100 rounded" alt="Second slide"/>
-                            <a href="#" className="btn px-4 py-2 text-white rounded">Vesitables</a>
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div> */}
         </div>
     </div>
 

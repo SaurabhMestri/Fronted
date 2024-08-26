@@ -1,23 +1,14 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import LoginPopup from './LoginForm'
 
 const header = () => {
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => setIsPopupOpen(true);
+  const closePopup = () => setIsPopupOpen(false);
   return (
     <div className="container-fluid">
-            {/* <div className="container topbar bg-primary d-none d-lg-block">
-                <div className="d-flex justify-content-between">
-                    <div className="top-info ps-2">
-                        <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" className="text-white">Ratnagiri,Maharastra</a></small>
-                        <small className="me-3"><i className="fas fa-envelope me-2 text-secondary"></i><a href="#" className="text-white">Mangohub@gmail.com</a></small>
-                    </div>
-                    <div className="top-link pe-2">
-                        <a href="#" className="text-white"><small className="text-white mx-2">Privacy Policy</small>/</a>
-                        <a href="#" className="text-white"><small className="text-white mx-2">Terms of Use</small>/</a>
-                        <a href="#" className="text-white"><small className="text-white ms-2">Sales and Refunds</small></a>
-                    </div>
-                </div>
-            </div> */}
-            <div className="container px-0">
+            <div className="container px-0 ">
                 <nav className="navbar navbar-light  navbar-expand-xl">
                     <a href="/home" className="navbar-brand"><h1 className="text-primary display-6">MangoHub</h1></a>
                     <button className="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -48,9 +39,10 @@ const header = () => {
                             <i className="fas fa-shopping-cart fa-2x"></i>
                                 <span className=" cart position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1 ">3</span>
                             </a>
-                            <a href="" className="my-auto">
-                                <i className="fas fa-user fa-2x"></i>
-                            </a>
+                            <button onClick={openPopup} className='border-0 bg-transparent' ><i className="fas fa-user fa-2x"></i></button>
+                            <LoginPopup isOpen={isPopupOpen} onClose={closePopup} /> 
+                                
+                            
                         </div>
                     </div>
                 </nav>
