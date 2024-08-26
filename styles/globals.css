@@ -13,6 +13,11 @@
     width: 130px;
 }
 
+.w-300{
+    width: 300px;
+
+}
+
 .tl-10{
     top: 10px;
     left: 10px;
@@ -46,5 +51,7 @@ height: 100vh;
     padding-left: 80px;
     width: 700px;
 }
+
+  
 
 

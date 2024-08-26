@@ -6,7 +6,6 @@ import product from "../public/images/product.jpg"
 import Shop from './shop'
 import BestSeller from './bestSeller'
 import About from './about'
-import Header from './header'
 
 
 const home = () => {
@@ -14,7 +13,6 @@ const home = () => {
 
   return (
     <div className="">
-        <Header/>
     <div className="hero-header">
         <div className="hero-container">
             <div className="col-md-12 col-lg-7">
