@@ -181,11 +181,13 @@
 /*** Hero Header ***/
 .hero-header {
     /* background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1)), url(../public/images/hero-img.jpg); */
-    background: url("../public/images/home-background.jpg");
+    background: url("../public/images/background1.jpg");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
+    margin: 0 40px;
+    border-radius:30px;
 }
 
 .carousel-item {

@@ -13,6 +13,11 @@
     width: 130px;
 }
 
+.w-300{
+    width: 300px;
+
+}
+
 .tl-10{
     top: 10px;
     left: 10px;
@@ -37,3 +42,16 @@ height: 100vh;
 .m-14{
     margin: 14rem !important;
 }
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    padding-left: 80px;
+    width: 700px;
+}
+
+  
+
+

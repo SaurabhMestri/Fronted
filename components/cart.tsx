@@ -20,7 +20,7 @@ const cart = () => {
                             <tr>
                                 <th scope="row">
                                     <div className="d-flex align-items-center">
-                                        <img src="img/vegetable-item-3.png" className="img-fluid me-5 rounded-circle wh-80"  alt=""/>
+                                        <img src="" className="img-fluid me-5 rounded-circle wh-80"  alt=""/>
                                     </div>
                                 </th>
                                 <td>
@@ -57,7 +57,7 @@ const cart = () => {
                             <tr>
                                 <th scope="row">
                                     <div className="d-flex align-items-center">
-                                        <img src="img/vegetable-item-5.jpg" className="img-fluid me-5 rounded-circle wh-80"  alt=""  />
+                                        <img src="" className="img-fluid me-5 rounded-circle wh-80"  alt=""  />
                                     </div>
                                 </th>
                                 <td>
@@ -93,7 +93,7 @@ const cart = () => {
                             <tr>
                                 <th scope="row">
                                     <div className="d-flex align-items-center">
-                                        <img src="img/vegetable-item-2.jpg" className="img-fluid me-5 rounded-circle wh-80"  alt=""/>
+                                        <img src="" className="img-fluid me-5 rounded-circle wh-80"  alt=""/>
                                     </div>
                                 </th>
                                 <td>

@@ -367,6 +367,10 @@ select {
     cursor: pointer
 }
 
+.cursor{
+    cursor: pointer;
+}
+
 select {
     word-wrap: normal
 }
@@ -2178,8 +2182,16 @@ progress {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
     }
-    .row{
-        margin: 3rem !important;
+   
+    .hero-container{
+        width: 300px;
+        height: 100%;
+        
+    }
+
+    .hero-header{
+        height: 50vh;
+        margin: 0 20px;
     }
 }
 
@@ -7060,6 +7072,11 @@ fieldset:disabled .btn {
     z-index: 1030
 }
 
+.fixed-center{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .fixed-bottom {
     position: fixed;
     right: 0;
