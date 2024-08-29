@@ -31,11 +31,11 @@ const header = (props:Props) => {
 
     return (
         <div className="container-fluid ">
-            <div className="container ">
+            <div className="container  ">
                 <nav className=" nav-container navbar-light  navbar-expand-xl">
                     <a href="/home" className="navbar-brand"><h1 className="text-primary display-6">MangoHub</h1></a>
 
-                    <div className="" id="navbarCollapse">
+                    <div className="d-flex gap-5" id="navbarCollapse">
                         <div className="nav-links">
                             {navLinks?.map((link) => (
                                 <Link key={link.id} href={`/${link.id}`}>
