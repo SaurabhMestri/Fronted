@@ -67,7 +67,8 @@ height: 100vh;
 
 .nav-menu {
     display: none;
-    padding-top: 8px;
+    padding-top: 12px;
+    padding-left: 12px;
 }
 
 .nav-links {

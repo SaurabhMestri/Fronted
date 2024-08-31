@@ -31,11 +31,11 @@ const header = (props:Props) => {
 
     return (
         <div className="container-fluid ">
-            <div className="container ">
-                <nav className=" nav-container navbar-light  navbar-expand-xl">
+            <div className="  pt-3 pb-3 ">
+                <div className=" d-flex justify-content-between   ">
                     <a href="/home" className="navbar-brand"><h1 className="text-primary display-6">MangoHub</h1></a>
 
-                    <div className="" id="navbarCollapse">
+                    <div className="d-flex gap-4" id="navbarCollapse">
                         <div className="nav-links">
                             {navLinks?.map((link) => (
                                 <Link key={link.id} href={`/${link.id}`}>
@@ -43,7 +43,7 @@ const header = (props:Props) => {
                                 </Link>
                             ))}
                         </div>
-                        <div className="d-flex ">
+                        <div className="d-flex  ">
                             <a href="/cart" className="position-relative me-4 my-auto align-middle">
                                 <Image src={carticon} width={30} height={30} alt='' />
                                 <span className=" cart position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1 ">3</span>
@@ -69,7 +69,7 @@ const header = (props:Props) => {
                             </div>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
             <div>
 

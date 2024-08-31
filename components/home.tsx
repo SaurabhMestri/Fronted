@@ -6,6 +6,9 @@ import product from "../public/images/product.jpg"
 import Shop from './shop'
 import BestSeller from './bestSeller'
 import About from './about'
+import freshMango from "../public/product/freshMango.png"
+import organicMango from "../public/product/organicMango.png"
+import testyMango from "../public/product/testyMango.png"
 
 
 const home = () => {
@@ -86,7 +89,7 @@ const home = () => {
                     <div className="col-md-6 col-lg-4">
                         <a href="#">
                             <div className="service-item bg-secondary rounded border border-secondary">
-                                <Image src="" className="img-fluid rounded-top w-100" alt=""/>
+                                <Image src={freshMango} className="img-fluid rounded-top w-100 m-3" alt=""/>
                                 <div className="px-4 rounded-bottom">
                                     <div className="service-content bg-primary text-center p-4 rounded">
                                         <h5 className="text-white">Fresh Mangos</h5>
@@ -99,7 +102,7 @@ const home = () => {
                     <div className="col-md-6 col-lg-4">
                         <a href="#">
                             <div className="service-item bg-dark rounded border border-dark">
-                                <Image src="" className="img-fluid rounded-top w-100" alt=""/>
+                                <Image src={testyMango} className="img-fluid rounded-top w-100" alt=""/>
                                 <div className="px-4 rounded-bottom">
                                     <div className="service-content bg-light text-center p-4 rounded">
                                         <h5 className="text-primary">Tasty New!</h5>
@@ -112,7 +115,7 @@ const home = () => {
                     <div className="col-md-6 col-lg-4">
                         <a href="#">
                             <div className="service-item bg-primary rounded border border-primary">
-                                <Image src="" className="img-fluid rounded-top w-100" alt=""/>
+                                <Image src={organicMango} className="img-fluid rounded-top w-100" alt=""/>
                                 <div className="px-4 rounded-bottom">
                                     <div className="service-content bg-secondary text-center p-4 rounded">
                                         <h5 className="text-white">Organic Mango</h5>
