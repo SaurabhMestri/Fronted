@@ -31,11 +31,19 @@ const header = (props:Props) => {
 
     return (
         <div className="container-fluid ">
+<<<<<<< HEAD
             <div className="  pt-3 pb-3 ">
                 <div className=" d-flex justify-content-between   ">
                     <a href="/home" className="navbar-brand"><h1 className="text-primary display-6">MangoHub</h1></a>
 
                     <div className="d-flex gap-4" id="navbarCollapse">
+=======
+            <div className="container  ">
+                <nav className=" nav-container navbar-light  navbar-expand-xl">
+                    <a href="/home" className="navbar-brand"><h1 className="text-primary display-6">MangoHub</h1></a>
+
+                    <div className="d-flex gap-5" id="navbarCollapse">
+>>>>>>> d29be2e73b9a66a8ff7d53c86563ea7d0804f911
                         <div className="nav-links">
                             {navLinks?.map((link) => (
                                 <Link key={link.id} href={`/${link.id}`}>
